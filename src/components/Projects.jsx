@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 export default function Projects() {
   const projects = [
     {
-      title: "SkillSwap",
+      title: "Weather Now",
       description:
-        "A full-stack web app where users can exchange skills (like Java for UI design) with others in real time.",
-      link: "#",
+        "A responsive weather app where users can search for cities worldwide and view real-time weather details. Powered by React, Tailwind CSS, and the Open-Meteo API.",
+      link: "https://wondrous-florentine-055ebc.netlify.app/",
     },
     {
       title: "E-Commerce App",
@@ -17,13 +17,16 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description:
-        "My personal developer portfolio built using React and Tailwind CSS, fully responsive and dark-mode ready.",
-      link: "#",
+        "My personal developer portfolio showcasing projects, skills, and achievements. Built with React and Tailwind CSS, it’s fully responsive and includes a dark mode for a modern user experience.",
+      link: "https://surajmaurya7071.netlify.app/",
     },
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-gray-50 dark:bg-gray-900 transition duration-300">
+    <section
+      id="projects"
+      className="py-20 px-6 bg-gray-50 dark:bg-gray-900 transition duration-300"
+    >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-12">
           Projects

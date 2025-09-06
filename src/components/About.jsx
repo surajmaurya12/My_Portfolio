@@ -18,7 +18,7 @@ export default function About() {
     Suraj Maurya
   </span>
   , a highly motivated and detail-oriented{" "}
-  <span className="font-semibold">Java Backend Developer</span> with a Master's degree in Computer Applications and hands-on experience building scalable and efficient backend systems.
+  <span className="font-semibold">Software Developer</span> with a Master's degree in Computer Applications and hands-on experience building scalable and efficient backend systems.
   <br />
   <br />
   I specialize in{" "}

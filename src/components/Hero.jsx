@@ -6,9 +6,10 @@ import { Typewriter } from "react-simple-typewriter";
 export default function Hero() {
   return (
     <section
-      id="home"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-6 py-10 md:px-20 bg-white dark:bg-gray-900 transition duration-300"
-    >
+  id="home"
+  className="pt-20 min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-6 py-10 md:px-20 bg-white dark:bg-gray-900 transition duration-300"
+>
+
       {/* Text Content */}
       <motion.div
         className="md:w-2/3 text-center md:text-left space-y-6"
@@ -20,7 +21,7 @@ export default function Hero() {
           Hi, I'm{" "}
           <span className="text-blue-600 dark:text-blue-400">
             <Typewriter
-              words={["Suraj Maurya", "Java Backend Developer"]}
+              words={["Suraj Maurya", "Software Developer"]}
               loop={true}
               cursor
               cursorStyle="|"
@@ -34,7 +35,8 @@ export default function Hero() {
         <p className="text-gray-700 dark:text-gray-300 text-lg max-w-2xl">
           I craft scalable, secure, and maintainable web applications using{" "}
           <strong className="text-blue-700 dark:text-blue-400">Java</strong>,{" "}
-          <strong className="text-blue-700 dark:text-blue-400">Spring Boot</strong>, and{" "}
+          <strong className="text-blue-700 dark:text-blue-400">Spring Boot</strong>, {" "} 
+          <strong className="text-blue-700 dark:text-blue-400">React.js</strong>, and{" "}
           <strong className="text-blue-700 dark:text-blue-400">MySQL</strong>. 
           With a strong foundation in backend development, I bring clean code practices,
           RESTful API design, and system architecture thinking to every project I work on.
@@ -51,7 +53,7 @@ export default function Hero() {
               Get In Touch
             </button>
           </a>
-          <a href="/Suraj_Maurya_Resume.pdf" download>
+          <a href="/Suraj Maurya.pdf" download>
             <button className="bg-gray-200 dark:bg-gray-800 dark:text-white text-gray-700 px-6 py-2 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 shadow-md hover:shadow-lg transition">
               Download CV
             </button>
