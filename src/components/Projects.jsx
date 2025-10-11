@@ -9,10 +9,10 @@ export default function Projects() {
       link: "https://wondrous-florentine-055ebc.netlify.app/",
     },
     {
-      title: "E-Commerce App",
+      title: "honeybrick-cafe",
       description:
-        "A scalable e-commerce platform built with Java Spring Boot and React, featuring secure checkout with Stripe.",
-      link: "#",
+        "Honeybrick Café is a modern, responsive, and SEO-friendly website for a café business, showcasing the menu, offers, and allowing smooth interaction with customers. The website features a dynamic reviews section, where customer testimonials are fetched and displayed in real-time, enhancing credibility and user engagement.",
+      link: "https://honeybrick-cafe.vercel.app/",
     },
     {
       title: "Portfolio Website",
