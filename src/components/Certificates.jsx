@@ -18,7 +18,6 @@ export default function Certificates() {
     title: "Full Stack Development",
     provider: "Pankaj Sir Academy",
     date: "2025",
-    link: "/PSA.jpg", // place the image in public folder
     image: "PSA.jpg", // ✅ add image path here
   },
   ];

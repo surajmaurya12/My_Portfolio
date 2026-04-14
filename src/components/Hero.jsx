@@ -21,7 +21,7 @@ export default function Hero() {
           Hi, I'm{" "}
           <span className="text-blue-600 dark:text-blue-400">
             <Typewriter
-              words={["Suraj Maurya", "Software Developer"]}
+              words={["Suraj", "Software Developer"]}
               loop={true}
               cursor
               cursorStyle="|"
