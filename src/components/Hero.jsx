@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -21,7 +21,7 @@ export default function Hero() {
           Hi, I'm{" "}
           <span className="text-blue-600 dark:text-blue-400">
             <Typewriter
-              words={["Shubham Maurya", "Software Developer"]}
+              words={["Suraj Maurya", "Software Developer"]}
               loop={true}
               cursor
               cursorStyle="|"
