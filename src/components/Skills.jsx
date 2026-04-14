@@ -1,13 +1,13 @@
 // src/components/Skills.jsx
 import {
-  FaJava, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaAws
+  FaJava, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaAws, FaCode
 } from "react-icons/fa";
 
 import {
   SiSpringboot, SiMysql, SiPostgresql, SiDocker,
   SiJavascript, SiTailwindcss, SiBootstrap,
   SiHibernate, SiPostman, SiApachemaven,
-  SiJira, SiIntellijidea, SiVisualstudiocode
+  SiJira, SiIntellijidea
 } from "react-icons/si";
 
 export default function Skills() {
@@ -54,7 +54,7 @@ export default function Skills() {
         { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
         { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
         { name: "Maven", icon: <SiApachemaven className="text-purple-600" /> },
-        { name: "VS Code", icon: <SiVisualstudiocode className="text-blue-500" /> },
+        { name: "VS Code", icon: <FaCode className="text-blue-500" /> }, // ✅ FIXED
         { name: "IntelliJ", icon: <SiIntellijidea /> },
         { name: "JIRA", icon: <SiJira className="text-blue-600" /> },
       ],
