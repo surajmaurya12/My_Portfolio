@@ -16,4 +16,4 @@ A professional portfolio website built with **React** and **Tailwind CSS** to sh
 - Framer Motion
 - EmailJS
 
-This is my protfolio link    https://surajmaurya7071.netlify.app
+This is my protfolio link   https://surajmauryacs.netlify.app/
